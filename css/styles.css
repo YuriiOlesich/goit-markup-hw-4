@@ -34,6 +34,10 @@ address:focus {
   color: #404bbf
 }
 
+img {
+  display: block;
+}
+
 .container {
     width: 1158px;
     margin: 0 auto;
@@ -42,7 +46,7 @@ address:focus {
 
 .page-header {
   bottom: 1px solid #e7e8fc;
-  border-bottom: 1px solid #e7e8fc;
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -65,6 +69,7 @@ address:focus {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-right: 76px;
 }
 
 .logo-part {
@@ -90,6 +95,7 @@ address:focus {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  padding: 24px 0;
 }
 
 .contacts-list {
@@ -126,7 +132,9 @@ address:focus {
 
 
 .main-button {
-  display: inline;
+  display: block;
+  margin: 0 auto;
+  min-width: 169px;
   background-color: #4D5AE5;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -138,6 +146,7 @@ address:focus {
   border-radius: 4px;
   padding: 16px 32px;
 }
+
 
 
 .main-button:hover,
@@ -189,6 +198,7 @@ overflow: hidden;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-section {
@@ -201,7 +211,7 @@ overflow: hidden;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42
+  color: #2e2f42;
 }
 
 .team-list {
@@ -210,14 +220,22 @@ overflow: hidden;
   padding: 0;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px; 
 }
 
 .team-list-item {
   background-color: #FFFFFF;
   text-align: center;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-card-info {
+  padding: 32px 0;
 }
 
 .team-person-name {
+  text-align: center;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -226,6 +244,7 @@ overflow: hidden;
 }
 
 .team-person-job{
+  text-align: center;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -249,6 +268,13 @@ overflow: hidden;
   justify-content: center;
   gap: 24px;
   border-bottom: #2e2f42;
+}
+
+.portfolio-info-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+  margin-bottom: 8px
 }
 
 .portfolio-image {
@@ -290,6 +316,7 @@ overflow: hidden;
 }
 
 .footer-logo-part {
+  display: inline-block;
   color: #f4f4fd;
   margin-bottom: 16px;
 }
