@@ -121,8 +121,14 @@ img {
 }
 
 .button-section {
+  max-width: 1440px;
+  background-color: #2E2F42B2;
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
+  url('../images/people-office.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
   background-color: #2e2f42;
-  text-align: center;
+  margin: 0 auto;
   padding: 188px 0;
 }
 
@@ -205,6 +211,20 @@ overflow: hidden;
 
 .preferred-item {
   width: calc((100% - 72px) / 4);
+}
+
+
+.icons-container {
+  display: flex;
+  width: 264px;
+  height: 112px;
+}
+
+.icons {
+  margin: 24px 100px;
+  position: absolute;
+  padding: 0 auto;
+
 }
 
 .preferred-text {
