@@ -109,7 +109,13 @@ img {
   color: #2e2f42;
   padding: 24px 0;
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.nav-link.current {
+  color: #404bbf;
+}
+
 
 .nav-link:hover,
 .nav-link:focus {
@@ -507,7 +513,7 @@ overflow: hidden;
   color: #ffffff;
   max-width: 264px;
   margin: 0;
-  margin-bottom: 16px;
+
 }
 
 .footer-socials-title {
@@ -517,6 +523,7 @@ overflow: hidden;
   letter-spacing: 0.02em;
   color: #ffffff;
   margin-left: 40px;
+  margin-bottom: 16px;
 }
 
 .footer-socials-list {
